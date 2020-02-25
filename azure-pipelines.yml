@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'b1b7cc3f-caa4-4ebe-ac6c-5699e43274e6'
   imageRepository: 'demoapp'
   containerRegistry: 'toomregistrydemo.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: './Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'toomregistrydemo1439-auth'
 
